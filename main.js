@@ -14,6 +14,26 @@ var server = http.createServer(function(req,res){
             res.writeHead(200, {'Content-Type':'text/js'});
             res.end(data);
         });
+    } else if (req.url === '/icons/twitter.png'){
+        fs.readFile('./icons/twitter.png', function(err,data){
+            res.writeHead(200, {'Content-Type':'img/png'});
+            res.end(data);
+        });
+    } else if (req.url === '/icons/facebook.png'){
+        fs.readFile('./icons/facebook.png', function(err,data){
+            res.writeHead(200, {'Content-Type':'img/png'});
+            res.end(data);
+        });
+    } else if (req.url === '/icons/linkedin.png'){
+        fs.readFile('./icons/linkedin.png', function(err,data){
+            res.writeHead(200, {'Content-Type':'img/png'});
+            res.end(data);
+        });
+    } else if (req.url === '/icons/instagram.png'){
+        fs.readFile('./icons/instagram.png', function(err,data){
+            res.writeHead(200, {'Content-Type':'img/png'});
+            res.end(data);
+        });
     };
 });
 
