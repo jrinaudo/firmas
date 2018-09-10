@@ -1,4 +1,4 @@
-//funcio que ejecuta script
+//función que ejecuta script
 function ejecutar(){
 	//constructor
 	function firma(nombre, mail, puesto, num_cel, loc) {
