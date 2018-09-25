@@ -26,7 +26,7 @@ function ejecutar(){
 					if((this.puesto == "Seleccionar")|(this.mail == "")|(this.nombre == "") | (this.num_cel == "") | (this.loc =="Seleccionar") | (this.car == "Seleccionar")){
       				alert("Debe completar todos los campos");
       			}else{ 
-      				//formato de firma
+      				//formato de frma
 					document.getElementById("firma").innerHTML = "<font size='1'><table><tr><img src='https://scontent.fros2-2.fna.fbcdn.net/v/t1.0-1/p720x720/16939163_1349458735097462_4295419607028443057_n.png?_nc_cat=0&oh=7df1f7e50dfc21d84b092f223a49a1ee&oe=5BC55F2A' width='70' height='70' style='float:left'><tr><td><b>" + this.nombre +"</b>" + " / " + this.puesto +"</td></tr><tr><td>" + this.mail + " / " + this.num_cel + 
 	      				"</td></tr><tr><td><a href='https://www.arbusta.net' target='_blank'>Arbusta</a> / <b>"+ this.loc +"</b></td></tr>" +
 	      				"<tr><td><a href='https://es-la.facebook.com/arbustait/' target= '_blank'><img src='https://cdn.icon-icons.com/icons2/285/PNG/256/social_facebook_box_blue_256_30649.png'  width='13' height='13'></a>" +
