@@ -19,9 +19,9 @@ var server = http.createServer(function(req,res){
             res.writeHead(200, {'Content-Type':'img/png'});
             res.end(data);
         });
-    } else if (req.url === '/icons/facebook.ico'){
+    } else if (req.url === '/icons/facebook.png'){
         fs.readFile('./icons/facebook.png', function(err,data){
-            res.writeHead(200, {'Content-Type':'img/ico'});
+            res.writeHead(200, {'Content-Type':'img/png'});
             res.end(data);
         });
     } else if (req.url === '/icons/linkedin.png'){
