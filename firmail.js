@@ -27,7 +27,7 @@ function ejecutar(){
       				alert("Debe completar todos los campos");
       			}else{ 
       				//formato de firma
-					document.getElementById("firma").innerHTML = "<font size='1'><table><tr><img src='https://accionrh.com/wp-content/uploads/2018/03/logo-arbusta.png' width='70' height='70' style='float:left'><tr><td><b>" + this.nombre +"</b>" + " / " + this.puesto +"</td></tr><tr><td>" + this.mail + " / " + this.num_cel + 
+					document.getElementById("firma").innerHTML = "<font size='1'><table><tr><img src='https://accionrh.com/wp-content/uploads/2018/03/logo-arbusta.png' width='72' height='72' style='float:left'><tr><td><b>" + this.nombre +"</b>" + " / " + this.puesto +"</td></tr><tr><td>" + this.mail + " / " + this.num_cel + 
 	      				"</td></tr><tr><td><a href='https://www.arbusta.net' target='_blank'>Arbusta</a> / <b>"+ this.loc +"</b></td></tr>" +
 	      				"<tr><td><a href='https://es-la.facebook.com/arbustait/' target= '_blank'><img src='./icons/facebook.png'  width='13' height='13'></a>" +
 	      				"<a href='https://twitter.com/arbustait' target='_blank'><img src='./icons/twitter.png'  width='13' height='13'</a>" +
