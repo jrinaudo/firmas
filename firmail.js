@@ -24,7 +24,7 @@ function ejecutar(){
 				this.generar = function(){ 
 					//consula por campos vacíos
 					if((this.puesto == "Seleccionar")|(this.mail == "")|(this.nombre == "") | (this.num_cel == "") | (this.loc =="Seleccionar") | (this.car == "Seleccionar")){
-      				alert("Debe completar todos los campos");
+      						alert("Debe completar todos los campos");
       			}else{ 
       				//formato de firma
 					document.getElementById("firma").innerHTML = "<font size='1'><table><tr><img src='https://accionrh.com/wp-content/uploads/2018/03/logo-arbusta.png' width='72' height='72' style='float:left'><tr><td><b>" + this.nombre +"</b>" + " / " + this.puesto +"</td></tr><tr><td>" + this.mail + " / " + this.num_cel + 
@@ -42,7 +42,7 @@ function ejecutar(){
 							  document.getElementById('mail').value,
 		  					  document.getElementById('puesto').value,
 		   					  document.getElementById('num_cel').value,
-		    				  document.getElementById('loc').value);
+		    				  	  document.getElementById('loc').value);
 		//ejecución de métodos del objeto.
 		firma.ofi();
 		//firma.carTel();
