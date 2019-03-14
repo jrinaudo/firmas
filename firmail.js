@@ -11,11 +11,13 @@ function ejecutar(){
 				this.ofi = function(){
 				//método asignación de oficina
 					if(this.loc == "R"){
-						this.loc = "ROS";
+						this.loc = "Rosario";
 					}else if(this.loc == "BA"){
-						this.loc == "BA";
+						this.loc == "Buenos Aires";
 					}else if(this.loc == "CM"){
-						this.loc = "COL";
+						this.loc = "Medellín";
+					}else if(this.loc == "MO"){
+						this.loc = "Montevideo";
 					}
 
 				};
