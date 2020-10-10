@@ -9,22 +9,19 @@ function ejecutar(){
 				this.loc = loc;
 
 				this.ofi = function(){
-				//método asignación de oficina
-					if(this.loc == "R"){
-						this.loc = "Rosario";
-					}else if(this.loc == "BA"){
-						this.loc == "Buenos Aires";
-					}else if(this.loc == "CM"){
-						this.loc = "Medellín";
-					}else if(this.loc == "MO"){
-						this.loc = "Montevideo";
+					//método asignación de oficina
+					const oficinas = {
+						"R": "Rosario",
+						"BA": "Buenos Aires",
+						"CM": "Medellín",
+						"MO": "Montevideo",
 					}
-
+					return oficinas[this.loc];
 				};
 
 				//método consulta y formato de firma.
 				this.generar = function(){ 
-					//consula por campos vacíos
+					//consulta por campos vacíos
 					if((this.puesto == "Seleccionar")|(this.mail == "")|(this.nombre == "") | (this.num_cel == "") | (this.loc =="Seleccionar") | (this.car == "Seleccionar")){
       						alert("Debe completar todos los campos");
       			}else{ 
